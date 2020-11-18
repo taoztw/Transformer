@@ -1,0 +1,4 @@
+numpy==1.19.2
+torch==1.4.0
+nltk==3.4
+flask==1.0

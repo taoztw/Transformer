@@ -41,5 +41,12 @@ BLEU算法评价结果：
           0.03417978514554449,n-gram权重：(1,0.2,0,0)
           
 *Attention：运行代码之前需要自己在项目目录下新建一个save文件夹*  
-[PyTorch官方Transformer接口](https://pytorch.org/docs/stable/generated/torch.nn.Transformer.html) 
-[Transformer讲解](http://thenet.top/index.php/archives/45/)
+[PyTorch官方Transformer接口](https://pytorch.org/docs/stable/generated/torch.nn.Transformer.html)   
+
+[Transformer讲解](https://thenet.top/index.php/archives/45/)
+
+
+## 运行项目
+1. `python train.py`：训练模型，保存模型
+2. `python app.py`启动服务。
+> `python test.py`，测试模型的测试集上的效果(这里用的是验证集)

@@ -7,6 +7,7 @@
 `model.py`:模型文件。通过调用**make_model方法**传入相关模型初始化参数，来对模型进行初始化。  
 `train.py`:进行模型的训练。和最好模型的保存。  
 `test.py`:对测试集句子的测试输出。  
+`bleu_score.py`:对机器翻译评分。  
 `one_trans.py`:实现单个句子进行翻译。  
 `app.py`:通过使用one_trans文件封装的单个句子翻译的方法，实现flask api  
 
@@ -40,4 +41,5 @@ BLEU算法评价结果：
           0.03417978514554449,n-gram权重：(1,0.2,0,0)
           
 *Attention：运行代码之前需要自己在项目目录下新建一个save文件夹*  
-[PyTorch官方实现Transformer](https://pytorch.org/docs/stable/generated/torch.nn.Transformer.html) 
+[PyTorch官方Transformer接口](https://pytorch.org/docs/stable/generated/torch.nn.Transformer.html) 
+[Transformer讲解](http://thenet.top/index.php/archives/45/)

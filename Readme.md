@@ -43,7 +43,7 @@ BLEU算法评价结果：
 *Attention：运行代码之前需要自己在项目目录下新建一个save文件夹*  
 [PyTorch官方Transformer接口](https://pytorch.org/docs/stable/generated/torch.nn.Transformer.html)   
 
-[Transformer讲解](https://thenet.top/index.php/archives/45/)
+[Transformer讲解](https://www.tzer.top/index.php/archives/25/)
 
 
 ## 运行项目
